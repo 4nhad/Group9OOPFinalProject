@@ -1,0 +1,7 @@
+<VerticalStackLayout Padding="30">
+    <Label Text="Salary Management System" FontSize="24" HorizontalOptions="Center" />
+    <Entry x:Name="nameEntry" Placeholder="Employee Name" />
+    <Entry x:Name="salaryEntry" Placeholder="Base Salary" Keyboard="Numeric" />
+    <Button Text="Add Employee" Clicked="OnAddEmployeeClicked" />
+    <ListView x:Name="employeeList"/>
+</VerticalStackLayout>
